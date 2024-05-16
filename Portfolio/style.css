@@ -1,0 +1,168 @@
+*{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+body{
+    background-color: rgb(0, 0, 86);
+}
+
+.container .box{
+    margin: auto;
+    width: 450px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container .box1{
+    background-color: rgb(0, 0, 86);
+    border: 1px solid grey;
+    box-shadow: 1px 1px 5px rgb(192, 192, 192);
+    position: relative;
+}
+
+.box1 .image{
+    height: 400px;
+    background-color: aqua;
+    background-image: url("images/bg_image.webp");
+    border-radius: 20px 20px 0 0;
+}
+
+.box1 .image img{
+    width: 450px;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+.box1 .image .img2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.box1 .image .img3{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 45px;
+    top: 250px;
+    background-color: white;
+}
+
+.box1 .text{
+    color: white;
+}
+
+.box1 .icons{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 .icons .icon{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(255, 119, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons .icon a{
+    color: white;
+}
+
+.container .box2{
+    background-color: white;
+}
+
+.box2 h1{
+    color: rgb(255, 119, 0);
+    text-align: center;
+}
+
+.box2 p{
+    color: grey;
+    font-size: large;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.container .box3{
+    background-color: white;
+}
+
+.box3 .head{
+    display: flex;
+    align-items: center;
+}
+
+.box3 .head .icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 .head h1{
+    color: rgb(255, 119, 0);
+}
+
+.box3 .text h2{
+    color: rgb(255, 119, 0);
+}
+
+.box3 .text p{
+    color: grey;
+}
+
+.box3 button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 64, 0);
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.box3 a{
+    text-decoration: none;
+}
+
+.box3 button i{
+    margin: 0 5px;
+}
+
+.box3 h1{
+    text-align: center;
+    color: rgb(255, 64, 0);
+}
+
+.box3 .sub-head{
+    text-align: center;
+    color: grey;
+}
+
+.box3 h2{
+    color: rgb(255, 64, 0);
+}
+
+.box3 h2 i{
+    margin-left: 150px;
+}

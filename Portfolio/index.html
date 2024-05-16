@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <div class="image">
+                <img class="img2" src="images/logo.png" alt="">
+                <img class="img3" src="images/profile.png" alt="">
+            </div>
+            <div class="text">
+                <h1>Viraj Umale</h1>
+                <p>STACKLAB.IN</p>
+                <p>Business Development Executive</p>
+                <div class="icons">
+                    <div class="icon"><a href=""><i class="fa-solid fa-mobile-screen-button"></i></a></div>
+                    <div class="icon"><a href=""><i class="fa-regular fa-envelope"></i></a></div>
+                    <div class="icon"><a href=""><i class="fa-brands fa-whatsapp"></i></a></div>
+                    <div class="icon"><a href=""><i class="fa-solid fa-location-dot"></i></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box box2">
+            <h1>About Me</h1>
+            <p>Hi, Viraj this side from STACKLAB, As a Business Development Analyst at STACKLAB, I excel in strategic planning and market analysis, driving growth through innovative solutions. Leveraging my analytical prowess, I identify opportunities, forge key partnerships, and implement effective strategies to propel StackLab's success in the dynamic business landscape.</p>
+        </div>
+
+        <div class="box box3">
+            <div class="head">
+                <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <h1>Contact Us</h1>
+            </div>
+            <div class="text">
+                <h2>Call Us</h2>
+                <p>+91 9518765233</p>
+            </div>
+            <div class="text">
+                <h2>Email</h2>
+                <p>virajumale@email.com</p>
+            </div>
+            <div class="text">
+                <h2>Address</h2>
+                <p>Akurdi, Pune, Maharashtra, India 411056</p>
+            </div>
+            <button href=""><i class="fa-solid fa-location-arrow"></i>Direction</button>
+        </div>
+
+        <div class="box box3">
+            <h1>Find me Here</h1>
+            <a href="">
+                <div class="head">
+                    <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <h2>Linkedin<i class="fa-solid fa-chevron-right"></i></h2>
+                </div>
+            </a>
+        </div>
+
+        <div class="box box3">
+            <a href="">
+                <div class="head">
+                    <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                   
+                    <h2>Instagram<i class="fa-solid fa-chevron-right"></i></h2>
+                </div>
+            </a>
+        </div>
+
+        <div class="box box3">
+            <h1>Links</h1>
+            <h2 class="sub-head">Find Us Here</h2>
+            <a href="">
+                <div class="head">
+                    <div class="icon"><i class="fa-solid fa-link"></i></div>
+                    <h2>Company Website<i class="fa-solid fa-chevron-right"></i></h2>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    // Function to toggle the visibility of the contact information
+    function toggleContactInfo() {
+        var contactInfo = document.querySelector(".box3");
+        contactInfo.classList.toggle("hidden");
+    }
+
+    // Function to handle button click event
+    function handleButtonClick(event) {
+        event.preventDefault();
+        toggleContactInfo();
+    }
+
+    // Select the button element
+    var button = document.querySelector(".box3 button");
+
+    // Add event listener to the button
+    button.addEventListener("click", handleButtonClick);
+});
+    </script>
+</body>
+</html>
